@@ -1,51 +1,112 @@
-html{
-    margin: 0;
-    padding: 0;
-    --color-verde: #B4CF55;
-    --color-negro:  #2B2B2B;
-    --color-rojo: #D42E3F;
-    --color-gris: #E4E4E4;
-    --color-blanco: white;
+html {
+  margin: 0;
+  padding: 0;
+  --color-verde: #b4cf55;
+  --color-negro: #2b2b2b;
+  --color-rojo: #d42e3f;
+  --color-gris: #e4e4e4;
+  --color-blanco: white;
+  --fondo-negro: #2c2c2c;
+  --color-linea: #949494;
+  --color-azul: lightblue;
 }
 
-body{
-    /*background-color: var(--color-negro);*/
-    font-size: 16px;
-    max-width: 1024px;
-    margin: 0px auto;
+body {
+  /*background-color: var(--color-negro);*/
+  font-size: 16px;
+  max-width: 1024px;
+  margin: 0px auto;
 }
 
-header ul li{
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    width: 17%;
+header ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 8px 14px;
+  margin-left: -10px;
+  width: 17%;
 }
 
-header ul li:nth-child(2){
-    background-color: var(--color-verde);
+header ul li:nth-child(2) {
+  background-color: var(--color-verde);
 }
 
-header ul li:nth-child(3){
-    background-color: var(--color-negro);
+header ul li:nth-child(3) {
+  background-color: var(--color-negro);
 }
 
-header ul li:nth-child(4){
-    background-color: var(--color-rojo);
+header ul li:nth-child(4) {
+  background-color: var(--color-rojo);
 }
 
-header ul li:nth-child(5){
-    background-color: var(--color-gris);
+header ul li:nth-child(5) {
+  background-color: var(--color-gris);
 }
 
 .letra-blanca {
-    color: var(--color-blanco);
+  color: var(--color-blanco);
 }
 
 .readmore {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .letra-gris {
-    color: gray;
+  color: gray;
+}
+
+section article {
+  width: 17.9%;
+  display: inline-block;
+  padding: 18px 8px;
+  height: 280px;
+  vertical-align: top;
+}
+
+section article ul {
+  list-style: none;
+}
+
+section article:nth-child(2) {
+  background: var(--color-verde);
+}
+
+section article:nth-child(3) {
+  background: var(--color-negro);
+}
+
+section article:nth-child(4) {
+  background: var(--color-rojo);
+}
+
+section article:nth-child(5) {
+  background: var(--color-gris);
+}
+
+section,
+footer {
+  background: var(--fondo-negro);
+}
+
+section img {
+  width: 150px;
+}
+
+.letra-azul {
+  color: var(--color-azul);
+}
+
+.letra-blanca {
+  color: var(--color-blanco);
+}
+
+.letra-gris {
+  color: var(--color-gris);
+}
+
+.tam-menu.lateral {
+  font-size: 1.1em;
+}
+
+.tam-tarjetas {
+  font-size: 1.7em;
 }
